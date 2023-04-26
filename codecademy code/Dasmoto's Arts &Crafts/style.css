@@ -1,0 +1,38 @@
+h1 {
+    text-align:center;
+    font-weight:bold;
+    font-family:Helvetica;
+    font-size:100px;
+    color:khaki;
+    background-image:url(resources/finnish.jpeg);
+}
+h2 {
+    background-color:mediumspringgreen;
+    font-family:Helvetica;
+    font-size:32px;
+    font-weight:bold;
+    color:white;
+}
+img{
+    text-align:left;
+}
+h3{
+    font-weight: bold;
+    text-align:left;
+    font-family:Helvetica;
+}
+p{
+    color:black;
+    text-align:left;
+}
+span{
+    color:blue;
+    font-family:Helvetica;
+    font-weight:bold;
+}
+.frames{
+    background-color:lightcoral;
+}
+.paint{
+    background-color:skyblue;
+}

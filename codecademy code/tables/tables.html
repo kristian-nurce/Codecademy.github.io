@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Ship To It - Company Packing List</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato: 100,300,400,700|Luckiest+Guy|Oxygen:300,400"
+        rel="stylesheet">
+    <link href="style.css" type="text/css" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <!--table will contain all the tabular data we
+    plan to display.
+    In the table create we then display the data that
+    will contain.
+    -->
+    <ul class="navigation">
+        <li>
+            <img src="https://content.codecademy.com/courses/web-101/unit-9/htmlcss1-img_logo-shiptoit.png"
+                height="20px">
+        </li>
+        <li class="active">Action List</li>
+        <li>Profiles</li>
+        <li>Settings</li>
+    </ul>
+    <!--<thead>,<tbody>,<tfoot> are used to section the <table> in 
+        different part to allow the understanding and readability of the code.
+        These tags use the analogy of the human body to make clear the different
+        part of the code-->
+    <table>
+        <!--Table head<thead> should contain all the table headings-->
+        <thead>
+            <!--Table row <tr> adds rows to the table-->
+            <tr>
+                <!--table heading<th> are used to add titles to rows and columns
+                    just like table data<td>, a table heading<th>
+                    must be placed within a table row<tr>-->
+                <th scope="col">COMPANY NAME</th>
+                <th scope="col">NUMBERS OF ITEMS TO SHIP</th>
+                <th scope="col">NEXT ACTION</th>
+            </tr>
+        </thead>
+        <!--Table body<tbodt> should contain all the table's data excluding the table headings-->
+        <tbody>
+            <tr>
+                <!--Table data element<td> adds cells to a table
+                        We have 3 table data<td> in 1 row-->
+                <td>Adam's Greenworks</td>
+                <td>14</td>
+                <td>Package Items</td>
+            </tr>
+            <tr>
+                <td>Davie's Burgers</td>
+                <td>2</td>
+                <td>Send Invoice</td>
+            </tr>
+            <tr>
+                <!--colspan spans the <td> of 2 columns 
+                    cospan is used when we have events that spans across multiple hours or days-->
+                <td colspan="2">Baker's Bike Shop</td>
+                <td>3</td>
+                <td>Send Invoice</td>
+            </tr>
+            <tr>
+                <td>Miss Sally's Southern </td>
+                <td>4</td>
+                <td rowspan="2">Ship</td>
+                <!--rowspan spans the <td> of 2rows-->
+            </tr>
+            <tr>
+                <td>Summit Resort Rentals</td>
+                <td>4</td>
+                <td>Ship</td>
+            </tr>
+            <tr>
+                <td>Strike Fitness</td>
+                <td>1</td>
+                <td>Enter Order</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Total</td>
+                <td>28</td>
+                <td></td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>

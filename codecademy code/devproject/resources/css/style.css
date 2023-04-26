@@ -1,0 +1,19 @@
+/*dot selector*/
+.banner{
+    background-color:#4D00FF;
+    color:white;
+    margin-top: 75px;
+    text-align: center;
+    padding:100px 0;
+}
+#smiler{
+    height:100px;
+    width:100px;
+}
+#smiller{
+    color:#4D00FF;
+    font-size:100px;
+}
+.bold{
+    font-weight:900;
+}
